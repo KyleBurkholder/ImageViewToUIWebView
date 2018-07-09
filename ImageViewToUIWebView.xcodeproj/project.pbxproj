@@ -12,6 +12,8 @@
 		02B5340520F2E5B3004CDDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B5340320F2E5B3004CDDC4 /* Main.storyboard */; };
 		02B5340720F2E5B5004CDDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B5340620F2E5B5004CDDC4 /* Assets.xcassets */; };
 		02B5340A20F2E5B5004CDDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B5340820F2E5B5004CDDC4 /* LaunchScreen.storyboard */; };
+		02B5341420F2EB19004CDDC4 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5341320F2EB19004CDDC4 /* BookCollectionViewCell.swift */; };
+		02B5341620F300CA004CDDC4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5341520F300CA004CDDC4 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		02B5340620F2E5B5004CDDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B5340920F2E5B5004CDDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B5340B20F2E5B5004CDDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B5341320F2EB19004CDDC4 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		02B5341520F300CA004CDDC4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		02B533FE20F2E5B3004CDDC4 /* ImageViewToUIWebView */ = {
 			isa = PBXGroup;
 			children = (
+				02B5341320F2EB19004CDDC4 /* BookCollectionViewCell.swift */,
 				02B533FF20F2E5B3004CDDC4 /* AppDelegate.swift */,
 				02B5340120F2E5B3004CDDC4 /* ViewController.swift */,
+				02B5341520F300CA004CDDC4 /* WebViewController.swift */,
 				02B5340320F2E5B3004CDDC4 /* Main.storyboard */,
 				02B5340620F2E5B5004CDDC4 /* Assets.xcassets */,
 				02B5340820F2E5B5004CDDC4 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B5341420F2EB19004CDDC4 /* BookCollectionViewCell.swift in Sources */,
 				02B5340220F2E5B3004CDDC4 /* ViewController.swift in Sources */,
 				02B5340020F2E5B3004CDDC4 /* AppDelegate.swift in Sources */,
+				02B5341620F300CA004CDDC4 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
